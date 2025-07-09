@@ -6,6 +6,6 @@ h1, h2 { color: #333; }
 ul { list-style-type: none; padding: 0; }
 li { margin-bottom: 10px; }
 footer { background: #333; text-align: center; padding: 10px; color: #ffffff; margin-top: 40px; }
-.about {
+#about {
   background-color: magenta;
 }
