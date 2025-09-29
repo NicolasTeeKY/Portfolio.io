@@ -15,4 +15,9 @@ footer { background: #333; text-align: center; padding: 10px; color: #ffffff; ma
 
 #nico {
   position: fixed;
+  height: 100px;
+}
+
+#me {
+  margin-top: 100px;
 }
