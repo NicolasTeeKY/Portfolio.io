@@ -12,3 +12,7 @@ footer { background: #333; text-align: center; padding: 10px; color: #ffffff; ma
 #about {
   background-color: magenta;
 }
+
+#nico {
+  position: fixed;
+}
