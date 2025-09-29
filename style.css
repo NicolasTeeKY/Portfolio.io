@@ -23,3 +23,14 @@ footer { background: #333; text-align: center; padding: 10px; color: #ffffff; ma
 #me {
   margin-top: 200px;
 }
+
+#nico1 {
+  position: fixed;
+  height: 40px;
+  bottom: 0;
+  left: 0;
+}
+
+#me1 {
+  margin-bottom: 80px;
+}
