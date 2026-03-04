@@ -1,40 +1,71 @@
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #555; }
-header { background: #333; color: white; padding: 20px; text-align: center; }
-section { padding: 20px; max-width: 800px; margin: auto; background-color: magenta; margin-top: 20px; border-radius: 8px; border-style: double;
-  border-color: blue;}
-h1 {
-  color: #fff;
-}
-h2 { color: #333; }
-ul { list-style-type: none; padding: 0; }
-li { margin-bottom: 10px; }
-footer { background: #333; text-align: center; padding: 10px; color: #ffffff; margin-top: 40px; }
-#about {
-  background-color: magenta;
+/* General Reset */
+body { 
+  font-family: 'Montserrat', Arial, sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  background-color: #222; /* Darker background for professional look */
+  color: #333;
 }
 
+/* Fixed Header Fix */
 #nico {
   position: fixed;
-  height: 100px;
   top: 0;
-  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
+header { 
+  background: #333; 
+  color: white; 
+  padding: 15px 20px; 
+  text-align: center;
+  border-bottom: 2px solid blue;
+}
+
+/* Section Styling */
+section { 
+  padding: 25px; 
+  max-width: 800px; 
+  margin: 20px auto; 
+  background-color: #f9f9f9; /* Changed from Magenta for readability */
+  border-radius: 8px; 
+  border: 4px double blue;
+  box-sizing: border-box;
+}
+
+/* Spacing for Fixed Elements */
 #me {
-  margin-top: 200px;
+  margin-top: 140px; /* Pushes content down so it's not hidden under header */
 }
 
+#me1 {
+  margin-bottom: 100px; /* Space so footer doesn't cover contact info */
+}
+
+/* Footer Fix */
 #nico1 {
   position: fixed;
   bottom: 0;
   width: 100%;
-  margin-left: 0;
-  marging-right: 0;
-  padding-left: 0;
-  padding-right: 0;
-  box-sizing: border-box;
+  background: #333; 
+  text-align: center; 
+  padding: 15px 0; 
+  color: #ffffff;
+  z-index: 1000;
 }
 
-#me1 {
-  margin-bottom: 80px
+/* Social Icons */
+#me1 div a {
+  font-size: 24px;
+  margin: 0 10px;
+  color: blue;
+  text-decoration: none;
+}
+
+/* Responsive adjustment for Mobile */
+@media (max-width: 600px) {
+  header h1 { font-size: 1.2rem; }
+  #me { margin-top: 160px; }
+  section { margin-left: 10px; margin-right: 10px; }
 }
