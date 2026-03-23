@@ -1,4 +1,4 @@
-/* General Reset */
+/* General Reset 
 body { 
   font-family: 'Montserrat', Arial, sans-serif; 
   margin: 0; 
@@ -22,7 +22,7 @@ header {
   text-align: center;
   border-bottom: 2px solid blue;
 }
-
+*/
 /* Section Styling */
 section { 
   padding: 25px; 
